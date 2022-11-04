@@ -1,0 +1,27 @@
+{
+  "name": "vitest-esm-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "jsdom": "^20.0.2",
+    "react": "^18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "vite": "^3.2.2",
+    "vitest": "^0.24.5"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}
